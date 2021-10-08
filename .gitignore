@@ -1,0 +1,5 @@
+# Robot report files
+*.png
+*.xml
+*.html
+*report

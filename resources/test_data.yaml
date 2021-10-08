@@ -1,0 +1,18 @@
+common_data:
+  baht_text: THB
+
+suggestion_page:
+  label_search_hint: Search for something you want to wear
+  label_brands: Brands
+  label_categories: Categories
+  label_products: Products
+
+device_info:
+  cuc_device: 
+    deviceName: 988a1b364b49464d55
+    platformName: android
+    platformVersion: '9'
+    app: C:/Users/Public/SuperSportApp/SuperSport.apk
+    newCommandTimeout: 300
+    noReset: False
+    autoGrantPermissions: True

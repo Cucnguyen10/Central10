@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "5eff96f7-2430-402b-97fd-c4e235e1dfae",
+		"name": "SuperSport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "App - Get Suggest EN",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-newrelic-id",
+						"value": "VQMOUF5SABAHXFBWAwUOX1Q=",
+						"disabled": true
+					},
+					{
+						"key": "cookie",
+						"value": "Path=/; dorpc_3a00c9744776536c2f2ba48162ab9984=NOruHxi6DBP9WSnJtPxhlhnTDoFb6lzI",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Android/28/samsung SC-02J/286/0f607264fc6318a92b9e13c65db7cd3c/1080/2076/1.4.8",
+						"disabled": true
+					},
+					{
+						"key": "zalora-country",
+						"value": "TH"
+					},
+					{
+						"key": "zalora-lang",
+						"value": "en"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "identity"
+					},
+					{
+						"key": "host",
+						"value": "api.supersports.co.th"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "x-postman-captr",
+						"value": "9406537"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.supersports.co.th/v1/suggestions/suggestWithProduct?query=adidas&segment=shop&shop=m&setLang=en&d=a",
+					"protocol": "https",
+					"host": [
+						"api",
+						"supersports",
+						"co",
+						"th"
+					],
+					"path": [
+						"v1",
+						"suggestions",
+						"suggestWithProduct"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "adidas"
+						},
+						{
+							"key": "segment",
+							"value": "shop"
+						},
+						{
+							"key": "shop",
+							"value": "m"
+						},
+						{
+							"key": "setLang",
+							"value": "en"
+						},
+						{
+							"key": "d",
+							"value": "a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Web - Get Suggestion TH",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.supersports.co.th/_c/search/suggest_with_product/?q=adidas&catalogtype=Main&shoptype=1&gender=undefined",
+					"protocol": "https",
+					"host": [
+						"www",
+						"supersports",
+						"co",
+						"th"
+					],
+					"path": [
+						"_c",
+						"search",
+						"suggest_with_product",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "adidas"
+						},
+						{
+							"key": "catalogtype",
+							"value": "Main"
+						},
+						{
+							"key": "shoptype",
+							"value": "1"
+						},
+						{
+							"key": "gender",
+							"value": "undefined"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Web - Suggestion EN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://en.supersports.co.th/_c/search/suggest_with_product/?q=adidas&catalogtype=Main&shoptype=1&gender=undefined",
+					"protocol": "https",
+					"host": [
+						"en",
+						"supersports",
+						"co",
+						"th"
+					],
+					"path": [
+						"_c",
+						"search",
+						"suggest_with_product",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "adidas"
+						},
+						{
+							"key": "catalogtype",
+							"value": "Main"
+						},
+						{
+							"key": "shoptype",
+							"value": "1"
+						},
+						{
+							"key": "gender",
+							"value": "undefined"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
